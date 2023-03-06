@@ -26,8 +26,8 @@ int main() {
         }
     }
 
-    cout << "The smallest element is: " << min << endl;
-    cout << "The largest element is: " << max << endl;
+    cout << "The smallest element is: " << min << endl;//вывод минимального элемента
+    cout << "The largest element is: " << max << endl;//вывод максимального элемента
 
     return 0;
 }
