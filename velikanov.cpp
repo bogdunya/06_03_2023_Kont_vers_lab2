@@ -20,6 +20,7 @@ int main() {
     int arr[] = { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 };
     int commit_velikanov_1;
     int n = sizeof(arr) / sizeof(arr[0]);
+    int commit_velikanov_2;
     int x = 23;
     int result = binarySearch(arr, 0, n - 1, x);
     (result == -1) ? cout << "Element is not present in array"
