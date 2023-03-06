@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <cmath>
+#include <cmath>// первый коммит в ветку sedov
 using namespace std;
 
 int main()
