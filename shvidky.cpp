@@ -9,7 +9,7 @@ vector<int> graph[MAXN];
 bool visited[MAXN]; 
 int dist[MAXN]; 
 
-void bfs(int start) {
+void bfs(int start) { //its bfs, he is beautiful
     queue<int> q;
     q.push(start);
     visited[start] = true;
