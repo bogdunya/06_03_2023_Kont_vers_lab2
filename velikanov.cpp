@@ -25,5 +25,6 @@ int main() {
     int result = binarySearch(arr, 0, n - 1, x);
     (result == -1) ? cout << "Element is not present in array"
                    : cout << "Element is present at index " << result;
+    int commit_main_2;
     return 0;
 }

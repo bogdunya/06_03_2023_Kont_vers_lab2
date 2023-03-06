@@ -14,7 +14,7 @@ Let y = -5 - -7. Suppose 0*n + y*n - 8 = 0. Suppose -2*p - 3*p + n*m = -71, -p =
 
 
 int main() {
-  int n, flag = 0;
+  int n, flag = 5;
   cout << "Enter a positive integer: ";
   cin >> n;
   
