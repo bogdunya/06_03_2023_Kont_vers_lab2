@@ -11,7 +11,7 @@ string longest_common_substring(string str1, string str2) {
     int max_length = 0;
     int end_pos = 0; // Первый коммит в мейн
 
-    for (int i = 0; i <= n1; i++) {
+    for (int i = 0; i <= n1; i++) { // Second commit to main
         for (int j = 0; j <= n2; j++) {
             if (i == 0 || j == 0) {
                 dp[i][j] = 0;
@@ -28,7 +28,7 @@ string longest_common_substring(string str1, string str2) {
     }
 
     if (max_length == 0) {
-        return "";
+        return ""; // Second commit to personal branch
     } else {
         return str1.substr(end_pos - max_length, max_length);
     }
