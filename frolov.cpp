@@ -2,27 +2,27 @@
 using namespace std;
 
 int main() {
-  double num1, num2, result;
+  double num, num, result;
   char op;
   cout << "Enter first number, operator, second number: ";
-  cin >> num1 >> op >> num2;
+  cin >> num >> op >> num;
 
   switch(op) {
     case '+':
-      result = num1 + num2;
+      result = num + num;
       break;
     case '-':
-      result = num1 - num2;
+      result = num - num;
       break;
     case '*':
-      result = num1 * num2;
+      result = num * num;
       break;
     case '/':
-      if(num2 == 0) {
+      if(num == 0) {
         cout << "Error: division by zero" << endl;
         return 1;
       }
-      result = num1 / num2;
+      result = num / num;
       break;
     default:
       cout << "Error: invalid operator" << endl;
