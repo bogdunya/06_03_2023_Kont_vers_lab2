@@ -11,7 +11,7 @@ string longest_common_substring(string str1, string str2) {
     int max_length = 0;
     int end_pos = 0; // Первый коммит в мейн
 
-    for (int i = 0; i <= n1; i++) {
+    for (int i = 0; i <= n1; i++) { // Second commit to main
         for (int j = 0; j <= n2; j++) {
             if (i == 0 || j == 0) {
                 dp[i][j] = 0;
@@ -39,5 +39,5 @@ int main() {
     string str2 = "hola mundo";
     string common_substring = longest_common_substring(str1, str2);
     cout << "Longest common substring: " << common_substring << endl;
-    return 0;
+    return 0; // First commit to personal branch
 }
