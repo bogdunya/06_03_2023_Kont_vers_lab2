@@ -5,6 +5,8 @@
 
 using namespace std;
 
+//One commit in Kovaleva
+
 double f(double x) // Функция для вычисления значения уравнения
 {
     return x * x - 4;
