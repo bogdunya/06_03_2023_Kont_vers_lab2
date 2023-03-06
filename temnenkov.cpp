@@ -6,11 +6,13 @@ void inputArray(int arr[], int n) {
     for(int i=0; i<n; i++) {
         cout << "Введите элемент массива: ";
         cin >> arr[i];
+        cin >> arr[n-5]
     }
 }
 
 // функция для объединения двух массивов в один
 void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {
+    //Добавлен пример комментария в коде программы
     int i=0, j=0, k=0;
     while(i < n1 && j < n2) {
         if(arr1[i] < arr2[j]) {
