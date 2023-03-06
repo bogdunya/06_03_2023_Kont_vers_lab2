@@ -26,6 +26,9 @@ double calculate(double a, double b, char op) {
 }
 
 int main() {
+	
+	int firstCommitInMain = 1;
+	
     stack<double> s;
     string expr;
     getline(cin, expr);
