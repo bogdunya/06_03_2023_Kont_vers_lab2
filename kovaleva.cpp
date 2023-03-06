@@ -15,6 +15,8 @@ double df(double x) // Функция для вычисления значени
     return 2 * x;
 }
 
+//Second commit in Kovaleva
+
 int main()
 {
     double x0 = 1; // Начальное приближение для корня
