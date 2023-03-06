@@ -9,7 +9,7 @@ string longest_common_substring(string str1, string str2) {
 
     int dp[n1+1][n2+1];
     int max_length = 0;
-    int end_pos = 0;
+    int end_pos = 0; // Первый коммит в мейн
 
     for (int i = 0; i <= n1; i++) {
         for (int j = 0; j <= n2; j++) {
