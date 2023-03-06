@@ -4,10 +4,10 @@
 #include <cstring>
 using namespace std;
 
-const int MAXN = 100; // максимальное количество вершин в графе
-vector<int> graph[MAXN]; // список смежности для графа
-bool visited[MAXN]; // флаги посещения вершин
-int dist[MAXN]; // расстояния до каждой вершины
+const int MAXN = 100;
+vector<int> graph[MAXN]; 
+bool visited[MAXN]; 
+int dist[MAXN]; 
 
 void bfs(int start) {
     queue<int> q;
