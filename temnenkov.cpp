@@ -26,6 +26,9 @@ void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {
     }
     while(j < n2) {
         arr3[k++] = arr2[j++];
+        if(k != j){
+            j = k+1
+        }
     }
 }
 
