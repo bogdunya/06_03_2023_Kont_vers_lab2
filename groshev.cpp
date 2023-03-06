@@ -27,5 +27,5 @@ int main() {
         cout << "x2 = " << -b / (2 * a) << "-" << sqrt(-discriminant) / (2 * a) << "i" << endl;
     }
 
-    return 0;
+    return 1;
 }

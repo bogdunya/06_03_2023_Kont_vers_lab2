@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+//One commit in Main
+
 using namespace std;
 
 double f(double x) // Функция для вычисления значения уравнения
