@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -58,7 +58,7 @@ public:
     }
 };
 
-int main()
+int main() //comment
 {
     Calculator calc;
 
