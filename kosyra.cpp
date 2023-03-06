@@ -39,4 +39,7 @@ int main() {
             }
             i--;
             s.push(num);
-        } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')
+        } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')		
+	}
+
+	int secondCommitInMain = 1;
