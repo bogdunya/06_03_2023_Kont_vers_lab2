@@ -14,6 +14,9 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
+//первое изменение
+//второе изменение в своей ветке
+
 int main() {
     int n, arr[100];
     cout << "Enter number of elements: ";
