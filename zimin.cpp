@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// first commit in main
+
 // Функция для конвертации рублей в доллары
 double rubleToDollar(double ruble, double rate) {
     return ruble / rate;
