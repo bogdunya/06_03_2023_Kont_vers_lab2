@@ -23,6 +23,8 @@ double calculate(double a, double b, char op) {
         default:
             return 0;
     }
+	
+	int secondCommitInKosyra = 1;
 }
 
 int main() {
