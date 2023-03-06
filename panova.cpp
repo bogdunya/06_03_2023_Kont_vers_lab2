@@ -14,11 +14,15 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
+<<<<<<< HEAD
 //первое изменение
 <<<<<<< HEAD
 //второе изменение в своей ветке
 =======
 >>>>>>> 075b38e15dcd1381759e928c9f63a5291b87941e
+=======
+//thrid change
+>>>>>>> c87a0b3 (commit in main-2)
 
 int main() {
     int n, arr[100];
