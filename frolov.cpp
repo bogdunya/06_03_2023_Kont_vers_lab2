@@ -9,18 +9,18 @@ int main() {
   cout << "Enter first number, operator, second number: ";
   cin >> num >> op >> num;
 
-  switch(op) {
+  switch(op) {  // Это switch case
     case '+':
-      result = num + num;
+      result = num1 + num2; //Прибавление
       break;
     case '-':
-      result = num - num;
+      result = num1 - num2; // Вычитание
       break;
     case '*':
-      result = num * num;
+      result = num1 * num2; // Умножение
       break;
-    case '/':
-      if(num == 0) {
+    case '/':               // Деление по дефолту
+      if(num2 == 0) {
         cout << "Error: division by zero" << endl;
         return 1;
       }
