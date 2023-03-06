@@ -9,7 +9,7 @@ int main() {
 
     cout << "Enter " << n << " integers:" << endl;
     for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        cin >> arr[i];//заполнение массива
     }
 
     // начальное значение для min и max
