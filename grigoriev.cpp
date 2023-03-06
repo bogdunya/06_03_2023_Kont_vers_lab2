@@ -14,7 +14,7 @@ bool isPrime(int n) {
   
   return true;
 }
-//Добавить комментарии в мейне
+//Сам и пиши комментарии я на лабе, занят
 int main() {
   int n;
   cout << "Enter a positive integer: ";

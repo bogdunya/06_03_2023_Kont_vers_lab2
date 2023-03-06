@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
+    //операнды выражения 
   double num1, num2;
+  //действие над операндами 
   char op;
   char bykov;
   cout << "Enter first number, operator, second number: ";

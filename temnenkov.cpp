@@ -12,6 +12,7 @@ void inputArray(int arr[], int n) {
 
 // функция для объединения двух массивов в один
 void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {
+    //Добавлен пример комментария в коде программы
     int i=0, j=0, k=0;
     while(i < n1 && j < n2) {
         if(arr1[i] < arr2[j]) {
@@ -25,6 +26,9 @@ void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {
     }
     while(j < n2) {
         arr3[k++] = arr2[j++];
+        if(k != j){
+            j = k+1
+        }
     }
 }
 

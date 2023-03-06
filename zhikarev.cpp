@@ -26,8 +26,11 @@ void findMinMax(int arr[], int size, int &min, int &max)
 
 // первый коммит в мастер
 
+
 int main()
 {
+    // второй коммит в свою ветку
+
     int arr[] = {5, 9, 3, 1, 8, 4, 7};
     int size = sizeof(arr) / sizeof(arr[0]);
     int min, max;
