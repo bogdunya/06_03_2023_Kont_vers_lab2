@@ -5,6 +5,8 @@
 
 using namespace std;
 
+//One commit in Kovaleva
+
 double f(double x) // Функция для вычисления значения уравнения
 {
     return x * x - 4;
@@ -14,6 +16,8 @@ double df(double x) // Функция для вычисления значени
 {
     return 2 * x;
 }
+
+//Second commit in Kovaleva
 
 int main()
 {
@@ -31,3 +35,5 @@ int main()
 
     return 0;
 }
+
+//Second commit in Main

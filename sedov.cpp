@@ -1,9 +1,9 @@
-#include <iostream>
+#include <iostream> // первый коммит в ветку main
 #include <string>
-#include <cmath>
+#include <cmath>// первый коммит в ветку sedov
 using namespace std;
 
-int main()
+int main()// второй коммит в ветку main
 {
     int num, base, new_base;
     cout << "Введите число: ";

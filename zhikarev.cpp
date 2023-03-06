@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+
+// Первый коммит в свою ветку
+
+
 void findMinMax(int arr[], int size, int &min, int &max)
 {
     min = max = arr[0]; // Initialize min and max to the first element
@@ -19,6 +23,7 @@ void findMinMax(int arr[], int size, int &min, int &max)
     }
 }
 
+
 // первый коммит в мастер
 
 int main()
@@ -31,6 +36,8 @@ int main()
 
     cout << "Minimum element: " << min << endl;
     cout << "Maximum element: " << max << endl;
+
+    // второй коммит в мастер
 
     return 0;
 }
