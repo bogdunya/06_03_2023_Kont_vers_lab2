@@ -30,6 +30,10 @@ void bfs(int start) {
     }
 }
 
+void feature(int value) {
+
+}
+
 int main() {
     int n, m;
     cin >> n >> m;
