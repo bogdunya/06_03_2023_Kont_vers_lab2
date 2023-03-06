@@ -29,6 +29,6 @@ int main() {
       return 1;
   }
   
-  cout << num1 << " " << op << " " << num2 << " = " << result << endl;
+  cout << num1 << " " << op << " " << num2 << " = " << result << endl;    //вывод результата в консоль
   return 0;
 }
