@@ -2,10 +2,11 @@
 using namespace std;
 
 int main() {
-    //операнды выражения 
-  double num1, num2;
-  //действие над операндами 
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 
+  double num1, num2, num3, num4;
+  //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 
   char op;
+  
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
 
