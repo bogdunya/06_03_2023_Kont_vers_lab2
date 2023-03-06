@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-  double num1, num2, result;
-  char op;
+  double num1, num2, result; // Переменные num1, num2, result
+  char op;                   //ПЕременная op
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
 
