@@ -36,7 +36,7 @@ public:
 
     double add()
     {
-        return operand1 + operand2;
+        return operand1 + operand2; // comment 3
     }
 
     double subtract()
