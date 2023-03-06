@@ -3,6 +3,8 @@
 
 using namespace std;
 
+/**Check first commit to main branch*/
+
 int main() {
     double a, b, c, discriminant, root1, root2;
     cout << "Enter coefficients a, b and c: ";

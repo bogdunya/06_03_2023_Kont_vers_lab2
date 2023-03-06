@@ -53,3 +53,4 @@ int main() {
 
     return 0;
 }
+int something = 0;
