@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// коммит в main-1
+
 void selectionSort(int arr[], int size) {
     int minIndex;
 
