@@ -19,7 +19,7 @@ int main() {
   else {
     cout << n << " is not a prime number" << endl;
   }
-  return 0;
+  return 10;
 }
 
 cat, but he didn't have to know the truth.
