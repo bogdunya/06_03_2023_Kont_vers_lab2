@@ -19,7 +19,7 @@ public:
         return operand1;
     }
 
-    void setOperand1(double operand)
+    void setOperand1(double operand) // comment 2
     {
         operand1 = operand;
     }
