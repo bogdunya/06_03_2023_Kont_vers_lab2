@@ -6,6 +6,7 @@ void inputArray(int arr[], int n) {
     for(int i=0; i<n; i++) {
         cout << "Введите элемент массива: ";
         cin >> arr[i];
+        cin >> arr[n-5]
     }
 }
 
