@@ -39,5 +39,5 @@ int main() {
     string str2 = "hola mundo";
     string common_substring = longest_common_substring(str1, str2);
     cout << "Longest common substring: " << common_substring << endl;
-    return 0;
+    return 0; // First commit to personal branch
 }
