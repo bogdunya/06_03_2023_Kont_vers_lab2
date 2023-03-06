@@ -22,6 +22,10 @@ void selectionSort(int arr[], int size) {
     }
 }
 
+
+// коммит в свою-1
+
+
 int main() {
     int arr[] = {5, 9, 3, 1, 8, 4, 7};
     int size = sizeof(arr) / sizeof(arr[0]);
