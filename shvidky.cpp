@@ -9,7 +9,7 @@ vector<int> graph[MAXN];
 bool visited[MAXN]; 
 int dist[MAXN]; 
 
-void bfs(int start) {
+void bfs(int start) { //its bfs, he is beautiful
     queue<int> q;
     q.push(start);
     visited[start] = true;
@@ -30,6 +30,10 @@ void bfs(int start) {
     }
 }
 
+void feature(int value) {
+
+}
+
 int main() {
     int n, m;
     cin >> n >> m;
@@ -48,12 +52,6 @@ int main() {
     memset(dist, -1, sizeof(dist));
 
     bfs(start);
-
-    if (dist[end] == -1) {
-        cout << "Нет пути из " << start << " в " << end << endl;
-    } else {
-        cout << "Кратчайший путь из " << start << " в " << end << " равен " << dist[end] << endl;
-    }
 
     return 0;
 }

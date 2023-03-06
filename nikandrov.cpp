@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -19,7 +19,7 @@ public:
         return operand1;
     }
 
-    void setOperand1(double operand)
+    void setOperand1(double operand) // comment 2
     {
         operand1 = operand;
     }
@@ -36,7 +36,7 @@ public:
 
     double add()
     {
-        return operand1 + operand2;
+        return operand1 + operand2; // comment 3
     }
 
     double subtract()
@@ -58,7 +58,7 @@ public:
     }
 };
 
-int main()
+int main() //comment
 {
     Calculator calc;
 

@@ -11,6 +11,8 @@ int main() {
     cin >> a >> b >> c;
 
     discriminant = b * b - 4 * a * c;
+	
+/**Check first commit to my own branch*/
 
     if (discriminant > 0) {
         root1 = (-b + sqrt(discriminant)) / (2 * a);

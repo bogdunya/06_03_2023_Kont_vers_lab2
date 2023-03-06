@@ -6,6 +6,9 @@
 using namespace std;
 
 double calculate(double a, double b, char op) {
+	
+	int firstCommitInKosyra = 1;
+	
     switch(op) {
         case '+':
             return a + b;
@@ -20,6 +23,8 @@ double calculate(double a, double b, char op) {
         default:
             return 0;
     }
+	
+	int secondCommitInKosyra = 1;
 }
 
 int main() {
@@ -39,4 +44,7 @@ int main() {
             }
             i--;
             s.push(num);
-        } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')
+        } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')		
+	}
+
+	int secondCommitInMain = 1;
