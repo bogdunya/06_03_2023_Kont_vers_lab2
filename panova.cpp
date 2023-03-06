@@ -14,8 +14,7 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-//первое изменение
-//второе изменение в своей ветке
+//four
 
 int main() {
     int n, arr[100];
