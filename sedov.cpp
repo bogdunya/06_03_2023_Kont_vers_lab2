@@ -3,7 +3,7 @@
 #include <cmath>
 using namespace std;
 
-int main()
+int main()// второй коммит в ветку main
 {
     int num, base, new_base;
     cout << "Введите число: ";
