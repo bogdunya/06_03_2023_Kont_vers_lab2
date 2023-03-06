@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Нужно напсиать что делает функция?
 bool isPrime(int n) {
   if(n <= 1) {
     return false;
@@ -14,7 +14,7 @@ bool isPrime(int n) {
   
   return true;
 }
-
+//Добавить комментарии в мейне
 int main() {
   int n;
   cout << "Enter a positive integer: ";

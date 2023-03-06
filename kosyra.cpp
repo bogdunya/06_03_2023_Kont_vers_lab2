@@ -6,6 +6,9 @@
 using namespace std;
 
 double calculate(double a, double b, char op) {
+	
+	int firstCommitInKosyra = 1;
+	
     switch(op) {
         case '+':
             return a + b;
@@ -23,6 +26,9 @@ double calculate(double a, double b, char op) {
 }
 
 int main() {
+	
+	int firstCommitInMain = 1;
+	
     stack<double> s;
     string expr;
     getline(cin, expr);

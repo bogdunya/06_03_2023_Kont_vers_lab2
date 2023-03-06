@@ -18,6 +18,7 @@ int main() {
       cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
       break;
     case '/':
+        //При делении на ноль 
       if(num2 == 0) {
         cout << "Error: division by zero" << endl;
       }
