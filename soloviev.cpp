@@ -3,13 +3,13 @@ using namespace std;
 
 int main() {
     int arr[100];
-    int n, min, max;
+    int n, min, max;//переменные
     cout << "Enter the size of the array: ";
     cin >> n;
 
     cout << "Enter " << n << " integers:" << endl;
     for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        cin >> arr[i];//заполнение массива
     }
 
     // начальное значение для min и max
