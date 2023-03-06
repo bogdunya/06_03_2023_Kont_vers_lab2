@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int num, base, new_base;
-    cout << "Введите число: ";
+    cout << "Введите число: ";// второй коммит в ветку sedov
     cin >> num;
     cout << "Введите систему счисления числа: ";
     cin >> base;
