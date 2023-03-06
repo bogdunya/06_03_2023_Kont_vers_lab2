@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// first commit in main
+// second commit in main
+
 // Функция для конвертации рублей в доллары
 double rubleToDollar(double ruble, double rate) {
     return ruble / rate;
@@ -45,3 +48,5 @@ int main() {
 
     return 0;
 }
+
+// first commit in zimin

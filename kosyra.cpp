@@ -6,6 +6,9 @@
 using namespace std;
 
 double calculate(double a, double b, char op) {
+	
+	int firstCommitInKosyra = 1;
+	
     switch(op) {
         case '+':
             return a + b;

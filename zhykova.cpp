@@ -3,6 +3,8 @@ using namespace std;
 
 // коммит в main-1
 
+// коммит в main-2
+
 void selectionSort(int arr[], int size) {
     int minIndex;
 
@@ -21,6 +23,10 @@ void selectionSort(int arr[], int size) {
         arr[minIndex] = temp;
     }
 }
+
+
+// коммит в свою-1
+
 
 int main() {
     int arr[] = {5, 9, 3, 1, 8, 4, 7};
