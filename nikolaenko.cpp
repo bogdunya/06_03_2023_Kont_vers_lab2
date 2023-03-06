@@ -20,6 +20,7 @@ int main() {
         cout << "Root 2 = " << root2 << endl;
     } else if (discriminant == 0) {
         root1 = -b / (2 * a);
+		/*Check second commit to main branch*/
         cout << "Roots are real and same." << endl;
         cout << "Root 1 = Root 2 = " << root1 << endl;
     } else {
