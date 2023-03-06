@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//Нужно напсиать что делает функция?
+//Я не знаю что делает эта функция(2 коммит в мэйн)
 bool isPrime(int n) {
   if(n <= 1) {
     return false;
