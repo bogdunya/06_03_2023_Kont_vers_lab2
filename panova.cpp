@@ -15,6 +15,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //первое изменение
 <<<<<<< HEAD
 //второе изменение в своей ветке
@@ -23,6 +24,9 @@ void bubbleSort(int arr[], int n) {
 =======
 //thrid change
 >>>>>>> c87a0b3 (commit in main-2)
+=======
+//four
+>>>>>>> origin/panova
 
 int main() {
     int n, arr[100];
