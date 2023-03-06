@@ -32,5 +32,7 @@ int main()
     cout << "Minimum element: " << min << endl;
     cout << "Maximum element: " << max << endl;
 
+    // второй коммит в мастер
+
     return 0;
 }
